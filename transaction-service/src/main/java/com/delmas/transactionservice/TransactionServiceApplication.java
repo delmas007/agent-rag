@@ -1,13 +1,13 @@
-package com.delmas.agentrag;
+package com.delmas.transactionservice;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class AgentRagApplication {
+public class TransactionServiceApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(AgentRagApplication.class, args);
+		SpringApplication.run(TransactionServiceApplication.class, args);
 	}
 
 }

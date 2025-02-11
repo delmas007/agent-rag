@@ -1,10 +1,10 @@
-package com.delmas.agentrag;
+package com.delmas.transactionservice;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class AgentRagApplicationTests {
+class TransactionServiceApplicationTests {
 
 	@Test
 	void contextLoads() {
