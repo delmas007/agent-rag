@@ -1,4 +1,4 @@
-package net.youssfi.transactionservice.entities;
+package com.delmas.transactionservice.entities;
 
 import jakarta.persistence.*;
 import lombok.*;

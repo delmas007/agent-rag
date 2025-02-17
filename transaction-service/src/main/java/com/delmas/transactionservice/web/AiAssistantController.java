@@ -1,7 +1,6 @@
-package net.youssfi.transactionservice.web;
+package com.delmas.transactionservice.web;
 
-import dev.langchain4j.model.chat.ChatLanguageModel;
-import net.youssfi.transactionservice.agents.TransactionAiAgent;
+import com.delmas.transactionservice.agents.TransactionAiAgent;
 import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestParam;

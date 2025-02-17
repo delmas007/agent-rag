@@ -1,7 +1,7 @@
-package net.youssfi.transactionservice.repository;
+package com.delmas.transactionservice.repository;
 
-import net.youssfi.transactionservice.entities.Transaction;
-import net.youssfi.transactionservice.entities.TransactionStatus;
+import com.delmas.transactionservice.entities.Transaction;
+import com.delmas.transactionservice.entities.TransactionStatus;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 import java.util.List;

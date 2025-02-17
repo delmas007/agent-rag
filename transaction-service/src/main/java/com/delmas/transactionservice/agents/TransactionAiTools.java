@@ -1,11 +1,10 @@
-package net.youssfi.transactionservice.agents;
+package com.delmas.transactionservice.agents;
 
+import com.delmas.transactionservice.entities.Transaction;
+import com.delmas.transactionservice.entities.TransactionStatus;
+import com.delmas.transactionservice.repository.TransactionRepository;
 import dev.langchain4j.agent.tool.Tool;
-import dev.langchain4j.model.output.structured.Description;
 import lombok.extern.slf4j.Slf4j;
-import net.youssfi.transactionservice.entities.Transaction;
-import net.youssfi.transactionservice.entities.TransactionStatus;
-import net.youssfi.transactionservice.repository.TransactionRepository;
 import org.springframework.stereotype.Component;
 
 import java.util.List;
@@ -27,7 +26,7 @@ public class TransactionAiTools {
         return transactionRepository.findByAccountId(accountId);
     }
     @Tool
-    public Transaction updateTransactionStatus(Long transactionId,TransactionStatus transactionStatus){
+    public Transaction updateTransactionStatus(Long transactionId, TransactionStatus transactionStatus){
         Transaction transaction = transactionRepository.findById(transactionId).get();
         transaction.setStatus(transactionStatus);
         transactionRepository.save(transaction);

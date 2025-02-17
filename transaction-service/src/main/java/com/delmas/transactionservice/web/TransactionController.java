@@ -1,7 +1,7 @@
-package net.youssfi.transactionservice.web;
+package com.delmas.transactionservice.web;
 
-import net.youssfi.transactionservice.entities.Transaction;
-import net.youssfi.transactionservice.repository.TransactionRepository;
+import com.delmas.transactionservice.entities.Transaction;
+import com.delmas.transactionservice.repository.TransactionRepository;
 import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;

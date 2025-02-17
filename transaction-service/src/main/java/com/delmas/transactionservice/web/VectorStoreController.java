@@ -1,4 +1,4 @@
-package net.youssfi.transactionservice.web;
+package com.delmas.transactionservice.web;
 
 import dev.langchain4j.data.embedding.Embedding;
 import dev.langchain4j.model.embedding.EmbeddingModel;

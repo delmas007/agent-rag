@@ -1,4 +1,4 @@
-package net.youssfi.transactionservice.web;
+package com.delmas.transactionservice.web;
 
 import dev.langchain4j.model.chat.ChatLanguageModel;
 import org.springframework.web.bind.annotation.CrossOrigin;
